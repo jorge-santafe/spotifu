@@ -9,11 +9,6 @@
     <title>Spotifu</title>
 </head>
 <body class="body">
-    <div class="slider">
-        <div class="slider-progess">
-            <button class="slider-button" aria-label="controlar progreso de la reproduccion"></button>
-        </div>
-    </div>
     <div class="sidebar">
         <header class="logo">
             <a href="/" aria-current="page">
@@ -78,13 +73,31 @@
             </ul>
         </nav>
     </div>
-    
+    <div class="playerControls">
+        <div class="playerControls-buttons">
+            <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                <i class="icon-prev" aria-hidden="true"></i>
+            </button>
+            <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                <i class="icon-play" aria-hidden="true"></i>
+            </button>
+            <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                <i class="icon-next" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="playerPlayback">
+            <span class="playerPlackback-progressTime">01:40</span>
+            <div class="playerPlaback-slider">
+                <div class="slider">
+                    <div class="slider-progess">
+                        <button class="slider-button" aria-label="controlar progreso de la reproduccion"></button>
+                    </div>
+                </div>
+            </div>
+            <span class="playerPlackback-progressTime">3:25</span>
+        </div>
+    </div>
 
-    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-        <i class="icon-play" aria-hidden="true"></i>
-    </button>
-    <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-        <i class="icon-play" aria-hidden="true"></i>
-    </button>
+
 </body>
 </html>
