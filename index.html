@@ -74,7 +74,7 @@
         </nav>
     </div>
     <div class="playerControls">
-        <div class="playerControls-buttons">
+        <div class="playerControls-buttons" aria-label="Controles de reproducción">
             <button class="buttonIcon" aria-label="Anterior" title="Anterior">
                 <i class="icon-prev" aria-hidden="true"></i>
             </button>
@@ -97,6 +97,19 @@
             <span class="playerPlackback-progressTime">3:25</span>
         </div>
     </div>
+    <div class="playerVolume">
+        <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+            <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolume-slider">
+            <div class="slider">
+                <div class="slider-progess">
+                    <button class="slider-button" aria-label="controlar progreso de la reproduccion"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 </body>
