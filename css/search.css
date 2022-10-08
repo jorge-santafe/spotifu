@@ -1,6 +1,7 @@
 .search{
     position: relative;
     border-radius: 1.25rem;
+    flex: 1;
 }
 .search i{
     font-size: 1rem;

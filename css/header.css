@@ -1,0 +1,14 @@
+@import url('./search.css');
+@import url('./navigation.css');
+
+.header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--gray50);
+}
