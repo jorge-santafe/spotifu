@@ -8,6 +8,7 @@
 @import url('./player.css');
 @import url('./page.css');
 @import url('./sticky.css');
+@import url('./layout.css');
 :root{
     --primary:#00B050;
     --white:#FFFFFF;
