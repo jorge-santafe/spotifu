@@ -1,6 +1,5 @@
 .playlistA{
-    /* outline: 1px solid red; */
-    inline-size: 13em;
+    inline-size: 13rem;
     padding: 1rem;
     border-radius: 0.25rem;
     background-color: var(--gray40);
@@ -25,6 +24,8 @@
 }
 .playlistA-cover img{
     vertical-align: middle;
+    inline-size: 100%;
+    block-size: auto;
 }
 .playlistA button{
     position: absolute;
